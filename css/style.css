@@ -9,18 +9,18 @@
     border: 1px dashed;
     padding: 5px;
 }
+
 /* #endregion common */
 
 /* #region header */
 
 header {
-    padding: 1.5rem;
+    padding: 0.7rem;
     background-color: #add8e6;
 }
 
 .conteiner-h {
     display: flex;
-    width: 70%;
     margin: auto;
     background-color: #daa520;
 }
@@ -40,3 +40,20 @@ header {
 }
 
 /* #endregion header */
+
+/* #region main */
+.container1 {
+    height: 20rem;
+    background-color: #00008b;
+    padding: 2rem 4rem;
+
+    .box1 {
+        display: flex;
+        background-color: #ee82ee;
+        padding: 7rem;
+    }
+}
+
+
+
+/* #endregion main */
