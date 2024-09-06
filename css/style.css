@@ -15,7 +15,7 @@
 /* #region header */
 
 header {
-    padding: 0.7rem;
+    padding: 1rem 17rem;
     background-color: #add8e6;
 }
 
@@ -43,16 +43,70 @@ header {
 
 /* #region main */
 .container1 {
-    height: 20rem;
+    display: flex;
+    margin: auto;
+    height: 22rem;
     background-color: #00008b;
-    padding: 2rem 4rem;
+    padding: 2.5rem 23rem;
 
     .box1 {
         display: flex;
         background-color: #ee82ee;
-        padding: 7rem;
+        width: 100%;
     }
 }
+
+.container2 {
+    display: flex;
+    margin: auto;
+    height: 25rem;
+    padding: 3rem 18rem;
+
+    .box2 {
+        display: flex;
+        background-color: #1e90ff;
+        width: 60%;
+    }
+
+    .box3 {
+        display: flex;
+        background-color: #ffc0cb;
+        width: 40%;
+    }
+}
+
+.container3 {
+    display: flex;
+    margin: auto;
+    height: 25rem;
+    padding: 3rem 18rem;
+    background-color: #d3d3d3;
+
+    .box4 {
+        display: flex;
+        background-color: #ffc0cb;
+        width: 40%;
+    }
+
+    .box5 {
+        display: flex;
+        background-color: #1e90ff;
+        width: 60%;
+    }
+}
+
+.container5 {
+    display: flex;
+    height: 45rem;
+    padding: 3rem 18rem;
+    background-color: #d3d3d3;
+    .box6 {
+        display: flex;
+        background-color: #228b22;
+        width: 100%;
+    }
+}
+
 
 
 
