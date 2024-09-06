@@ -1,0 +1,42 @@
+/* #region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px dashed;
+    padding: 5px;
+}
+/* #endregion common */
+
+/* #region header */
+
+header {
+    padding: 1.5rem;
+    background-color: #add8e6;
+}
+
+.conteiner-h {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background-color: #daa520;
+}
+
+.left-box {
+    width: 25%;
+}
+
+.center-box {
+    width: 50%;
+    text-align: center;
+}
+
+.right-box {
+    width: 25%;
+    text-align: end;
+}
+
+/* #endregion header */
